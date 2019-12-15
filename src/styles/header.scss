@@ -1,5 +1,6 @@
 .header-container {
     padding-bottom: 60px;
+    text-align: left;
     h1 {
         font-family: $header-font;
         font-size: 2.3em;
@@ -9,6 +10,21 @@
         margin: 60px 10px 0px;
         color: $main-black;
         text-align: left;
+    }
+    button {
+        margin: 10px 0 0 10px;
+        background: white;
+        padding: 10px;
+        font-family: $main-font;
+        color: $main-black;
+        font-weight: bold;
+        transition: 500ms;
+        border: 1px solid $main-black;
+        &:hover {
+            border: 2px solid $main-black;
+            transition: 500ms;
+            cursor: pointer;
+        }
     }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../data/resume.pdf'
 
 const Header = () => {
     return(
@@ -10,12 +11,16 @@ const Header = () => {
                  <span className="orange"> design</span>, to 
                  <span className="orange"> HTML </span> + 
                  <span className="orange">CSS</span> + 
-                 <span className="orange">JavaScript</span> + 
+                 <span className="orange"> JavaScript</span> + 
                  <span className="orange">React</span> , 
                 all the way to  production 
                 <span className="turquoise"> analytics</span>  using 
                 <span className="green"> Splunk </span>and various monitoring tools.
             </h1>
+            <a href={resume} download="Kim Kiamco's resume">
+
+            <button>Checkout my Resume</button>
+            </a>
         </div>
     )
 }
