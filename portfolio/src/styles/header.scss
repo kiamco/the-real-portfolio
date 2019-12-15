@@ -1,0 +1,33 @@
+.header-container {
+    padding-bottom: 60px;
+    h1 {
+        font-family: $header-font;
+        font-size: 2.8em;
+        line-height: 1.45;
+        font-weight: 800;
+        width: 80%;
+        margin: 60px 10px 0px;
+        color: $main-black;
+        text-align: left;
+    }
+}
+
+span.blue {
+    color: #5393fe;
+}
+
+span.orange {
+    color: #F46B3F;
+}
+
+span.green {
+    color: #6CBB47;
+}
+
+span.purple {
+    color: #B57BFF;
+}
+
+span.turquoise {
+    color: #17B1B1;
+}
