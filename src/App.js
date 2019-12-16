@@ -9,10 +9,17 @@ import Rocket from './img/startup.png'
 import Brain from './img/brain.png'
 import Footer from './components/footer.js'
 import Helmet from 'react-helmet';
+import ReactGA from 'react-ga';
+
 
 function App() {
+  function initializeReactGA() {
+    ReactGA.initialize('UA-123791717-1');
+    ReactGA.pageview('/homepage');
+  }
+
+  initializeReactGA();
   return (
-    
     <>
       <Helmet>
         <title>Kim Kiamco's portfolio</title>
