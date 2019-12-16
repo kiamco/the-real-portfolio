@@ -6,9 +6,23 @@ nav {
     justify-content: space-between;
     padding-bottom: 20px;
     border-bottom: 1px solid $main-black;
-    img {
-        height: 50px;
-        padding-bottom: 10px;
+    // @media (max-width: 768px) {
+    //     flex-flow: column nowrap;
+    //     align-items: center;
+    //     border-bottom: none;
+    //     justify-content: flex-end;
+    // }
+    @media (max-width: 768px) {
+        height: 50%;
+    }
+    .logo {
+        img {
+            height: 50px;
+            padding-bottom: 10px;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
     }
     a {
         font-weight: 600;
@@ -29,10 +43,18 @@ nav {
         flex-flow: row nowrap;
         align-items: center;
         justify-content: space-around;
+        // @media (max-width: 768px) {
+        //     flex-flow: column;
+        //     align-items: flex-start;
+        // }
+        @media (max-width: 768px) {
+            justify-content: center;
+            margin: 10px auto;
+        }
         .social-icon {
             display: flex;
             flex-flow: row nowrap;
-            align-items: center;
+            align-items: flex-end;
         }
     }
 }

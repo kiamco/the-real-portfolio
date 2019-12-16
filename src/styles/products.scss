@@ -1,75 +1,96 @@
-.products-container {
-    .products-header {
-        border-bottom: 1px solid $main-black;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        h1 {
-            text-align: left;
-            margin: 20px 0 0 0;
-            line-height: 1.2;
-            font-size: 1.5em;
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
-            padding-bottom: 10px;
-            color: $main-black;
-        }
-        img {
-            height: 40px;
-            margin-left: 10px;
-        }
-    }
-    .item {
-        display: flex;
-        flex: row wrap;
-        max-height: 200px;
-        margin: 20px 10px;
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
-        transition: all 500ms ease-in-out;
-        justify-content: space-between;
-        .left {
+    .products-container {
+        .products-header {
+            border-bottom: 1px solid $main-black;
             display: flex;
-            align-items: baseline;
-            flex-flow: column;
-            text-align: left;
-            margin: 15px 0px 0px 10px;
-            .title {
-                display: flex;
-                flex-flow: row nowrap;
-                align-items: center;
-                margin-left: 30px;
-                h1 {
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: 1.5rem;
-                    font-weight: bold;
-                    margin-left: 5px;
-                    margin-top: 5px;
-                }
-                img {
-                    height: 40px;
-                }
+            flex-flow: row nowrap;
+            align-items: center;
+            h1 {
+                text-align: left;
+                margin: 20px 0 0 0;
+                line-height: 1.2;
+                font-size: 1.5em;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-bottom: 10px;
+                color: $main-black;
             }
-            p {
-                margin-left: 40px;
-                margin-top: 10px;
-                font-family: $main-font;
-                width: 90%;
-                font-size: 16px;
-                line-height: 1.5;
-            }
-        }
-        .right {
             img {
-                height: 200px;
+                height: 40px;
+                margin-left: 10px;
             }
         }
-        &:hover {
-            box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
+        .item {
+            display: flex;
+            flex: row wrap;
+            max-height: 200px;
+            margin: 20px 10px;
+            padding-bottom: 20px;
+            box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
             transition: all 500ms ease-in-out;
-            background: rgba(123, 164, 226, 0.1);
-            width: 100%;
-            margin: 20px 0px;
-            cursor: pointer;
+            justify-content: space-between;
+            @media (max-width: 768px) {
+                max-height: 100%;
+            }
+            .left {
+                display: flex;
+                align-items: baseline;
+                flex-flow: column;
+                text-align: left;
+                margin: 15px 0px 0px 10px;
+                @media (max-width: 768px) {
+                    text-align: center;
+                    margin: 0;
+                }
+                .title {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    margin-left: 30px;
+                    @media (max-width: 768px) {
+                        margin: 10px 0 0 5px;
+                        ;
+                    }
+                    h1 {
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        margin-left: 5px;
+                        margin-top: 5px;
+                        @media (max-width: 768px) {
+                            margin: 10px 0 0 10px;
+                        }
+                    }
+                    img {
+                        height: 40px;
+                    }
+                }
+                p {
+                    margin-left: 40px;
+                    margin-top: 10px;
+                    font-family: $main-font;
+                    width: 90%;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    @media (max-width: 768px) {
+                        margin: 10px 0 0 10px;
+                    }
+                }
+            }
+            .right {
+                img {
+                    height: 200px;
+                    @media (max-width: 1440px) {
+                        display: none;
+                    }
+                }
+            }
+            &:hover {
+                box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
+                transition: all 500ms ease-in-out;
+                background: rgba(123, 164, 226, 0.1);
+                width: 100%;
+                margin: 20px 0px;
+                cursor: pointer;
+            }
         }
     }
-}
