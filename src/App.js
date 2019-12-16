@@ -8,11 +8,16 @@ import { product,projects } from './data/homeContent';
 import Rocket from './img/startup.png'
 import Brain from './img/brain.png'
 import Footer from './components/footer.js'
-
+import Helmet from 'react-helmet';
 
 function App() {
   return (
+    
     <>
+      <Helmet>
+        <title>Kim Kiamco's portfolio</title>
+        <meta name="description" content="A compilation of Kim Kiamco's work as a developer" />
+      </Helmet>
     <div className="App">
       <Nav />
      <Header />
