@@ -24,6 +24,7 @@ function App() {
       <Helmet>
         <title>Kim Kiamco's portfolio</title>
         <meta name="description" content="A compilation of Kim Kiamco's work as a developer" />
+        <meta name="keywords" content="kiamco,Questr,hangman,full-stack,developer,Products,projects,kim" />
       </Helmet>
     <div className="App">
       <Nav />
