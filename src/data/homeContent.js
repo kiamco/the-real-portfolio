@@ -8,7 +8,7 @@ export const product = [
         product: "Questr",
         description: "Questr, an Open Source platform giving student a place they can ask questions related to their classes and professors. Which allow them to build communities that's good enough to support themselves and other individuals who don't have tutors or friends to study with.",
         image: Questr,
-        url: "https://questr-front-end.now.sh/dashboard"
+        url: "https://questr-front-end.now.sh/"
     },
 
 ];
