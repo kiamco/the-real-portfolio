@@ -18,7 +18,7 @@ export const projects = [
     {
         product: "Fresh Farm produce API",
         description: "An api the can be used to create an ecommerce website for farmers that want to sell their produce independently. The purpose of this project was to test my overall understanding of API's and how they interact with databases. I also used this as an oppurtunity solidify my knowledge of the following concepts: authentication, authorization, web tokens, cookies, middlewares, and other database concepts",
-        url: "https://farm-life.herokuapp.com/",
+        url: "https://documenter.getpostman.com/view/7751062/SWLe6nmm ",
         image: FarmFreshAPI
     },
     {
