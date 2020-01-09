@@ -16,7 +16,8 @@ const Products = ({ header, content, logo }) => {
                         productName={item.product}
                         description={item.description}
                         image={item.image}
-                        url={item.url} />
+                        url={item.url}
+                        github={item.github} />
                 )
                 
             })

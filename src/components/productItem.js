@@ -2,16 +2,22 @@ import React from 'react';
 import Directory from '../img/folder.png';
 import placeholder from '../img/settings.png'
 
-const ProductItem = ({productName, description, image, url}) => {
+const ProductItem = ({ productName, description, image, url, github }) => {
     console.log(url)
-    return(
-        <div className='item' onClick={()=> window.location = url}>
+    return (
+        <div className='item' onClick={() => window.location = url}>
             <div className="left">
                 <div className="title">
-                    <img src={Directory} alt=""/>
+                    <img src={Directory} alt="" />
                     <h1>{productName}</h1>
                 </div>
                 <p>{description}</p>
+                <p class='github'>Github
+                    <ul>
+                        <li><a href="">{github}</a></li>
+                    </ul>
+                </p>
+
             </div>
             <div className="right">
                 <div className="img-container">
