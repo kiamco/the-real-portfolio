@@ -2,6 +2,7 @@ import Questr from '../img/proj/QuestrProj.PNG';
 import Portfolio from '../img/proj/myportfolio.PNG';
 import Hangman from '../img/proj/hangman.PNG';
 import DarkMode from '../img/proj/darkmode.PNG';
+import FarmFreshAPI from '../img/proj/farmFresh.PNG'
 
 export const product = [
     {
@@ -32,4 +33,10 @@ export const projects = [
         url: "https://dark-mode.kiamcoo.now.sh/",
         image: DarkMode
     },
+    {
+        product: "Fresh Farm produce API",
+        description: "An api the can be used to create an ecommerce website for farmers that want to sell their produce independently",
+        url: "https://farm-life.herokuapp.com/",
+        image: FarmFreshAPI
+    }
 ];
