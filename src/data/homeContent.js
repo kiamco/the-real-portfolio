@@ -3,9 +3,17 @@ import Portfolio from '../img/proj/myportfolio.PNG';
 import Hangman from '../img/proj/hangman.PNG';
 import DarkMode from '../img/proj/darkmode.PNG';
 import FarmFreshAPI from '../img/proj/farmFresh.PNG'
+import Entrylevel from '../img/proj/entrylevel.PNG';
 
-export const product = [{
-        product: "Questr",
+export const product = [
+    {
+        product: "Entrylevel.io",
+        description: "entrylevel is a job aggregator targeting students, recent grads, career changers, and individuals with less than 3 years of experience. Our main mission is to provide valuable job content to help our users find the job they love. We want to make the job search process easier for beginners.",
+        image: Entrylevel,
+        url: "https://entrylevel.io"
+    },
+    {
+        product: "Questr (BETA)",
         description: "Questr, an Open Source platform giving student a place they can ask questions related to their classes and professors. Which allow them to build communities that's good enough to support themselves and other individuals who don't have tutors or friends to study with.",
         image: Questr,
         url: "https://questr-front-end.now.sh/"
