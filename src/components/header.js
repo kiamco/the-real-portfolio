@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../data/resume-kim.docx'
+import resume from '../data/resume-kim-v2.pdf'
 
 const Header = () => {
     return(
