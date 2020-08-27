@@ -4,8 +4,13 @@ import Hangman from '../img/proj/hangman.PNG';
 import DarkMode from '../img/proj/darkmode.PNG';
 import FarmFreshAPI from '../img/proj/farmFresh.PNG'
 import Entrylevel from '../img/proj/entrylevel.PNG';
-
-export const product = [
+import Unifind from '../img/proj/Unifind.png';
+export const product = [{
+        product:"Unifind Landing Page",
+        description:"UniFind aims to create an innovative platform that will help high school students make the right choice of university and program through current students' real-life experience; a virtual connection will be made between the top & current university students from multiple institutions and areas (i.e. academic, res life, socialite, etc), and the high school students who are looking to truly understand what life would be like accross several universities/colleges. UniFind is very excited to bring this opportunity to both university students and high school students.",
+        image:Unifind,
+        url:"https://unifind.kiamcoo.vercel.app/index.html"
+    },
     {
         product: "Entrylevel.io",
         description: "entrylevel is a job aggregator targeting students, recent grads, career changers, and individuals with less than 3 years of experience. Our main mission is to provide valuable job content to help our users find the job they love. We want to make the job search process easier for beginners.",
