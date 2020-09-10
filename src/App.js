@@ -7,6 +7,7 @@ import Products from './components/products'
 import { product,projects } from './data/homeContent';
 import Rocket from './img/startup.png'
 import Brain from './img/brain.png'
+import Skills from './components/skills';
 import Footer from './components/footer.js'
 import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
@@ -31,6 +32,7 @@ function App() {
      <Header />
      <Products header="Products" logo={Rocket} content={product}/>
      <Products header="Side Projects" logo={Brain} content={projects} />
+     <Skills header="Skills" logo={Brain}/>
     </div>
       <Footer />
 

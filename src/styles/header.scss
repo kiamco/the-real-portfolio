@@ -1,9 +1,11 @@
 .header-container {
     padding-bottom: 60px;
     text-align: left;
+
     @media (max-width: 425px) {
         text-align: center;
     }
+
     h1 {
         font-family: $header-font;
         font-size: 2.3em;
@@ -13,16 +15,69 @@
         margin: 60px 10px 0px;
         color: $main-black;
         text-align: left;
+
         @media (max-width: 1024px) {
             font-size: 1.5em;
         }
+
         @media (max-width: 768px) {
             font-size: 1em;
         }
+
         @media (max-width: 425px) {
             margin: 50px auto 10px;
         }
     }
+
+    p.contact {
+        font-family: $main-font;
+        color: gray;
+        margin: 20px 10px;
+        font-size: 1.3rem;
+        
+
+        a {
+            position: relative;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-transition: color 1000ms;
+            transition: color 1000ms;
+            color:gray;
+            
+
+            &:before {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: #5393fe;
+                -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+                -webkit-transition: 300ms ease-out;
+                transition: 300ms ease-out;
+            }
+
+            &:hover:before {
+                -webkit-transform: scaleY(1);
+                transform: scaleY(1);
+            }
+
+            &:hover{
+                color:white;
+                font-weight: bolder;
+                padding:10px
+            }
+
+        }
+    }
+
     button {
         margin: 10px 0 0 10px;
         background: white;
@@ -32,6 +87,7 @@
         font-weight: bold;
         transition: 500ms;
         border: 1px solid $main-black;
+
         &:hover {
             border: 2px solid $main-black;
             transition: 500ms;
