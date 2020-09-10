@@ -1,22 +1,23 @@
 import React from 'react';
-import resume from '../data/resume-kim-v2.pdf'
+import resume from '../data/kim_kiamco_resume_v5-converted.pdf'
 
 const Header = () => {
     return(
         <div className="header-container">
             <h1>
-                <span className='blue'>Kim Kiamco</span> is a 
-                <span className="purple"> full-stack developer</span>,
-                 who has a diverse skill set ranging from  
-                 <span className="orange"> design</span>, to 
-                 <span className="orange"> HTML/CSS </span> +  
-                 <span className="orange"> JavaScript</span> + 
-                 <span className="orange"> React</span> + 
-                 <span className="orange"> Nodejs</span>, 
-                all the way to 
-                <span className="turquoise"> analytics</span>  using 
-                <span className="green"> Splunk </span>and various monitoring tools.
+                Hello 👋, I am 
+                <span className='blue'> Kim Kiamco </span> 
+                a 
+                <span class="orange"> full stack web developer  </span> 
+                who is 
+                <span class="purple"> passionate </span>about turning ideas 
+                into 
+                <span class="green"> web applications </span> 
+                
+                
             </h1>
+             
+            <p class="contact">Get in touch 📭 <a href="mailto:kiamcoo@gmail.com">kiamcoo@gmail.com </a> </p>
             <a href={resume} download="Kim Kiamco's resume">
 
             <button>Checkout my resume</button>
