@@ -17,7 +17,8 @@ const Products = ({ header, content, logo }) => {
                         description={item.description}
                         image={item.image}
                         url={item.url}
-                        stack={item.stack} />
+                        stack={item.stack} 
+                        github={item.github}/>
                 )
             })
         }
