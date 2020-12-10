@@ -7,31 +7,30 @@ import Entrylevel from '../img/proj/entrylevel.PNG';
 import Unifind from '../img/proj/Unifind.png';
 
 export const product = [{
-        product:"Unifind Landing Page",
+        product:"Unifind",
         description:"UniFind aims to create an innovative platform that will help high school students make the right choice of university and program through current students",
         image:Unifind,
-        url:"https://unifind.kiamcoo.vercel.app/index.html",
-        stack: "HTML, CSS, JavaScript, Node.js, Express"
+        url:"https://app.unifind.ca/",
+        stack: "HTML, CSS, JavaScript, Node.js, Express, MongoDB"
     },
     {
         product: "Entrylevel.io",
-        description: "entrylevel is a job aggregator targeting students, recent grads, career changers, and individuals with less than 3 years of experience. Our main mission is to provide valuable job content to help our users find the job they love. We want to make the job search process easier for beginners.",
+        description: "Entrylevel is a job aggregator targeting students, recent grads, career changers, and individuals with less than 3 years of experience. Our main mission is to provide valuable job content to help our users find the job they love. We want to make the job search process easier for beginners.",
         image: Entrylevel,
         url: "https://entrylevel.io",
         stack: "HTML, CSS, JavaScript, ReactJS, NodeJS, PostgreSQL, Nginx, Elasticsearch, MaterialUI, Python3"
-    },
-    {
-        product: "Questr (BETA)",
-        description: "Questr, an Open Source platform giving student a place they can ask questions related to their classes and professors. Which allow them to build communities that's good enough to support themselves and other individuals who don't have tutors or friends to study with.",
-        image: Questr,
-        url: "https://questr-front-end.now.sh/",
-        stack:"HTML, CSS, JavaScript, ReactJS, ContextAPI,NodeJS, MongoDB"
-    },
-
+    }
 ];
 
 
 export const projects = [
+    {
+        product: "Payme",
+        description: "An API made with Node.js, Express, and MongoDb that should give the user the ability to transfer fiat currencies through the use of the Stellar Ledger",
+        url: "https://github.com/kiamco/payme-backend",
+        image: FarmFreshAPI,
+        stack:"Node.js, Express, MongoDB, Stellar Ledger, TypeScript"
+    },
     {
         product: "Fresh Farm produce API",
         description: "An api the can be used to create an ecommerce website for farmers that want to sell their produce independently. The purpose of this project was to test my overall understanding of API's and how they interact with databases. I also used this as an oppurtunity solidify my knowledge of the following concepts: authentication, authorization, web tokens, cookies, middlewares, and other database concepts",

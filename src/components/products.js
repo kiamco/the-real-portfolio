@@ -19,7 +19,6 @@ const Products = ({ header, content, logo }) => {
                         url={item.url}
                         stack={item.stack} />
                 )
-                
             })
         }
             
