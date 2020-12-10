@@ -11,7 +11,7 @@ const ProductItem = ({ productName, description, image, url, stack, github }) =>
                     <h1 onClick={() => window.location = url}>{productName} </h1>
                 </div>
                 <p>{description}</p>
-                {github ? <p className="stack">Github: <span className="link-hover">{github}</span></p> : ""}
+                {github ? <p className="stack">Github: <span className="link-hover" onClick={() => window.location = github} >{github}</span></p> : ""}
                 
                 <p className="stack">Tech Stack: {stack}</p>
             </div>
