@@ -12,16 +12,19 @@ const Nav = (props) => {
             </div>
             <div className='links'>
                 <div className='social-icon'>
-                    <img src={twitter} alt="" />
-                    <a href="https://twitter.com/KiamcoKim">  Twitter</a>
+                    <a href="https://twitter.com/KiamcoKim">
+                    <img src={twitter} alt="twitter" />
+                    </a>
                 </div>
                 <div className="social-icon">
-                    <img src={linkedin} alt=""/>
-                    <a href="https://www.linkedin.com/in/kim-kiamco-bab1a4107/">Linkedin</a>
+                    
+                    <a href="https://www.linkedin.com/in/kim-kiamco-bab1a4107/">
+                    <img src={linkedin} alt="linkedin"/>
+                    </a>
                 </div>
                 <div className="social-icon">
-                    <img src={github} alt="" />
-                    <a href="https://github.com/kiamco">Github</a>
+                    
+                    <a href="https://github.com/kiamco"><img src={github} alt="github" /></a>
                 </div>
             </div>
         </nav>

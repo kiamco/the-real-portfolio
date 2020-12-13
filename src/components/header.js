@@ -21,6 +21,7 @@ const Header = () => {
             <a href={resume} download="Kim Kiamco's resume">
 
             <button>Checkout my resume</button>
+            
             </a>
         </div>
     )
